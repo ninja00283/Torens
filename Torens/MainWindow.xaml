@@ -6,7 +6,57 @@
         xmlns:local="clr-namespace:Torens"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+
+    
+
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Button Grid.Column="0" Grid.Row="0" Click="MovePiece" Name="Piece_0_0"/>
+        <Button Grid.Column="1" Grid.Row="0" Click="MovePiece" Name="Piece_0_1"/>
+        <Button Grid.Column="2" Grid.Row="0" Click="MovePiece" Name="Piece_0_2"/>
         
+        <Button Grid.Column="0" Grid.Row="1" Click="MovePiece" Name="Piece_1_0"/>
+        <Button Grid.Column="1" Grid.Row="1" Click="MovePiece" Name="Piece_1_1"/>
+        <Button Grid.Column="2" Grid.Row="1" Click="MovePiece" Name="Piece_1_2"/>
+        
+        <Button Grid.Column="0" Grid.Row="2" Click="MovePiece" Name="Piece_2_0"/>
+        <Button Grid.Column="1" Grid.Row="2" Click="MovePiece" Name="Piece_2_1"/>
+        <Button Grid.Column="2" Grid.Row="2" Click="MovePiece" Name="Piece_2_2"/>
+        
+        <Button Grid.Column="0" Grid.Row="3" Click="MovePiece" Name="Piece_3_0"/>
+        <Button Grid.Column="1" Grid.Row="3" Click="MovePiece" Name="Piece_3_1"/>
+        <Button Grid.Column="2" Grid.Row="3" Click="MovePiece" Name="Piece_3_2"/>
+        
+        <Button Grid.Column="0" Grid.Row="4" Click="MovePiece" Name="Piece_4_0"/>
+        <Button Grid.Column="1" Grid.Row="4" Click="MovePiece" Name="Piece_4_1"/>
+        <Button Grid.Column="2" Grid.Row="4" Click="MovePiece" Name="Piece_4_2"/>
+        
+        <Button Grid.Column="0" Grid.Row="5" Click="MovePiece" Name="Piece_5_0"/>
+        <Button Grid.Column="1" Grid.Row="5" Click="MovePiece" Name="Piece_5_1"/>
+        <Button Grid.Column="2" Grid.Row="5" Click="MovePiece" Name="Piece_5_2"/>
+        
+        <Button Grid.Column="0" Grid.Row="6" Click="MovePiece" Name="Piece_6_0"/>
+        <Button Grid.Column="1" Grid.Row="6" Click="MovePiece" Name="Piece_6_1"/>
+        <Button Grid.Column="2" Grid.Row="6" Click="MovePiece" Name="Piece_6_2"/>
+        
+        <Button Grid.Column="0" Grid.Row="7" Click="MovePiece" Name="Piece_7_0"/>
+        <Button Grid.Column="1" Grid.Row="7" Click="MovePiece" Name="Piece_7_1"/>
+        <Button Grid.Column="2" Grid.Row="7" Click="MovePiece" Name="Piece_7_2"/>
     </Grid>
 </Window>
